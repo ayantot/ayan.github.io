@@ -1,0 +1,192 @@
+@font-face{
+    font-family: tengwar;
+    src: url("fonts/tngani.ttf");
+  }
+  
+  @font-face{
+    font-family: aniron;
+    src: url("fonts/anirm___.ttf");
+  }
+  
+  @font-face{
+    font-family: "party-business";
+    src: url("fonts/partybusiness.ttf");
+  }
+
+.title-symbols {
+    font-family: tengwar;
+    font-size: 1.5rem;
+    vertical-align: top;
+    color: #d44e19;
+  }
+  
+.party-font {
+    font-family: "party-business" !important;
+  } 
+  
+  * {
+    font-family: aniron;
+  }
+  
+  
+.light-background {
+    background:url("bg_light.png");
+    background-size: cover; 
+    margin: 0 ;
+  }
+  
+ #contact, #thering, #reward {
+    background-color: black;
+  }
+  
+ .navbar, footer {
+    background-color: #d44e19 !important;
+  }
+ .navbar-nav li {
+    border-left: 1px solid white;
+    text-decoration: none;
+    padding: 0 .2rem;
+    font-size-adjust: .5;
+  }
+  
+  
+h2 {
+    font-size: calc(1rem + 4vw);
+  }
+  
+h3 {
+    font-size: calc(.5rem + 2vw);
+    line-height: 2;
+  }
+  
+.nav-pills li a{
+    color: #d44e19 !important;
+    background-color: white !important;
+    font-size: 1rem;
+  }
+  
+.nav-pills li a.active{
+    text-decoration: underline;
+  }
+  
+.card {
+    margin: 0 auto;
+    background-color: black;
+    padding-top: .5rem;
+  }
+  
+.card-image-top {
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+.card:hover .card-image-top {
+    opacity: 1;
+  }
+  
+.card-overlay span {
+    color: #d44e19;
+  }
+  
+.card-body {
+    text-align: center;
+  }
+  
+.card-overlay {
+    opacity: 1;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: black;
+    padding: .3vw;
+    top: 4%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+  }
+  
+.card:hover .card-overlay {
+    opacity: 0;
+    
+  }
+  
+.fellows-name {
+    position: absolute;
+    width: 100%;
+    bottom: 43%;
+    font-family: helvetica, sans-serif;
+    font-size: 3.4rem;
+    color: white;
+    transition: 0.4s ease-out;
+    left: 0;
+  }
+  
+.card:hover .fellows-name {
+    color: white;
+    font-family: helvetica, sans-serif;
+    width: 100%;
+    font-size: 2em;
+    margin: 0 auto;
+    opacity: 1;
+    transform: translate(0, 60%);
+  }
+  
+.card-text {
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+.card-text span {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  
+.gimli-dead {
+    background-color: none;
+    opacity: ;
+  }
+  
+.gimli-name {
+    text-decoration: line-through;
+  }
+  
+
+#reward p {
+    font-size: 1.5rem;
+  }
+  
+  
+
+.hunter-name {
+    color: #d44e19;
+    font-size: 3rem;
+  }
+  
+.card-header {
+    background-color: #d44e19;
+  }
+  
+table th, table td{
+    font-size: 1rem;
+  }
+  
+.join-text {
+    color: #d44e19;
+  }
+  
+.gollum-pic {
+    clip-path: circle(6rem at center);
+    justify-content: center;
+  }
+  
+footer ul a {
+    color : white;
+  }
+  
+button p{
+    color: #d44e19;
+  }
